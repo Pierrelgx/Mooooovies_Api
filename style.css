@@ -1,7 +1,9 @@
 h1 {
 text-align: center;
 padding-top: 8cm;
-padding-bottom: auto;
 color: blue;
+}
 
+p {
+    font-size: larger;
 }
