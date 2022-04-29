@@ -12,6 +12,7 @@ xhr.responseType = "json" ;
 console.log(xhr.response);
 
 xhr.onload = function(){
+    console.log(xhr.response);
     for (i = 0; i < xhr.lengts; i ++) {
         
         let newLi = document.createElement('li');
